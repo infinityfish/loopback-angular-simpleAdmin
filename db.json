@@ -1,0 +1,31 @@
+{
+  "ids": {
+    "User": 2,
+    "AccessToken": 2,
+    "ACL": 3,
+    "RoleMapping": 1,
+    "Role": 1,
+    "UserCredential": 1,
+    "UserIdentity": 2,
+    "Time": 1
+  },
+  "models": {
+    "User": {
+      "1": "{\"username\":\"facebook-login.1039410452756054\",\"password\":\"$2a$10$C2T4sXSgcY8.6wr0Sjwa5euX2fsRP6wo4FnI/rSq2blQiIxPrcg5W\",\"email\":\"1039410452756054@loopback.facebook.com\",\"id\":1}"
+    },
+    "AccessToken": {
+      "ygrPbczhsjCJ36Afef5m9PTMpBOT550Qzsh3lfKFOSDNGSgJiGkKJm8gaNmXEF8I": "{\"id\":\"ygrPbczhsjCJ36Afef5m9PTMpBOT550Qzsh3lfKFOSDNGSgJiGkKJm8gaNmXEF8I\",\"ttl\":1209600,\"created\":\"2015-12-05T12:00:41.352Z\",\"userId\":1}"
+    },
+    "ACL": {
+      "1": "{\"model\":\"User\",\"property\":\"__get__times\",\"accessType\":\"*\",\"permission\":\"ALLOW\",\"principalType\":\"ROLE\",\"principalId\":\"$owner\",\"id\":1}",
+      "2": "{\"model\":\"User\",\"property\":\"__get__times\",\"accessType\":\"*\",\"permission\":\"ALLOW\",\"principalType\":\"ROLE\",\"principalId\":\"$owner\",\"id\":2}"
+    },
+    "RoleMapping": {},
+    "Role": {},
+    "UserCredential": {},
+    "UserIdentity": {
+      "1": "{\"provider\":\"facebook-login\",\"authScheme\":\"oAuth 2.0\",\"externalId\":\"1039410452756054\",\"profile\":{\"id\":\"1039410452756054\",\"displayName\":\"Eric Mabo\",\"name\":{\"familyName\":\"Mabo\",\"givenName\":\"Eric\"},\"gender\":\"male\",\"profileUrl\":\"https://www.facebook.com/app_scoped_user_id/1039410452756054/\",\"provider\":\"facebook\",\"_raw\":\"{\\\"id\\\":\\\"1039410452756054\\\",\\\"first_name\\\":\\\"Eric\\\",\\\"gender\\\":\\\"male\\\",\\\"last_name\\\":\\\"Mabo\\\",\\\"link\\\":\\\"https:\\\\/\\\\/www.facebook.com\\\\/app_scoped_user_id\\\\/1039410452756054\\\\/\\\",\\\"locale\\\":\\\"en_US\\\",\\\"name\\\":\\\"Eric Mabo\\\",\\\"timezone\\\":-5,\\\"updated_time\\\":\\\"2015-06-07T01:07:24+0000\\\",\\\"verified\\\":true}\",\"_json\":{\"id\":\"1039410452756054\",\"first_name\":\"Eric\",\"gender\":\"male\",\"last_name\":\"Mabo\",\"link\":\"https://www.facebook.com/app_scoped_user_id/1039410452756054/\",\"locale\":\"en_US\",\"name\":\"Eric Mabo\",\"timezone\":-5,\"updated_time\":\"2015-06-07T01:07:24+0000\",\"verified\":true}},\"credentials\":{\"accessToken\":\"CAANEayTmiN4BAIi5vZAwKbGVeiC36dBF0CZBQpGrBw1rjMSMHnkaccMwl5JJZCna19WZC28qLZA0topA48H4dm22a5RZCvZBBcT5ckrQNjC4WlEvAgTg92lZBWeTACK9KXXxOqJlVqVr58TnSkHwQJZANw1L2fWSYKZAflGQ3qYZANlZBZBwVAKwkdhALe25tSXXMmy4ZD\"},\"created\":\"2015-12-05T12:00:41.349Z\",\"modified\":\"2015-12-05T12:00:41.349Z\",\"userId\":1,\"id\":1}"
+    },
+    "Time": {}
+  }
+}
